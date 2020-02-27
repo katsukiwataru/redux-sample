@@ -1,0 +1,63 @@
+{
+  "name": "redux-sample",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@loadable/component": "^5.11.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.1.2"
+  },
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack-dev-server --mode=development"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/katsukiwataru/qiita-typescript-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katsukiwataru/qiita-typescript-app.git"
+  },
+  "author": "Wataru Katsuki",
+  "license": "ISC",
+  "homepage": "https://github.com/katsukiwataru/qiita-typescript-app#readme",
+  "devDependencies": {
+    "@types/history": "^4.7.3",
+    "@types/loadable__component": "^5.10.0",
+    "@types/node": "^12.12.22",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-router": "^5.1.3",
+    "@types/react-router-dom": "^4.3.5",
+    "@types/styled-components": "^4.4.1",
+    "@whatasoda/eslint-config": "^1.3.3",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.0",
+    "file-loader": "^4.3.0",
+    "history": "^4.10.1",
+    "html-webpack-plugin": "^3.2.0",
+    "img-loader": "^3.0.1",
+    "style-loader": "^1.1.1",
+    "styled-components": "^4.4.1",
+    "ts-loader": "^6.2.1",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.7.2",
+    "typescript-eslint-parser": "^22.0.0",
+    "url-loader": "^2.3.0",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
