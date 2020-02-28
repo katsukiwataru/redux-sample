@@ -1,16 +1,9 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const src = path.resolve(__dirname, 'src');
 const dist = path.resolve(__dirname, 'dist');
 
-const copyRules = [
-  {
-    from: path.resolve(__dirname, 'src/assets'),
-    to: dist,
-  },
-];
 module.exports = {
   entry: src + '/index.tsx',
   output: {
@@ -51,7 +44,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
     }),
-    new CopyWebpackPlugin(copyRules),
   ],
   optimization: {
     splitChunks: {
