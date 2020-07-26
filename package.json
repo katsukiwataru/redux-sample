@@ -39,7 +39,7 @@
   "license": "ISC",
   "homepage": "https://github.com/katsukiwataru/qiita-typescript-app#readme",
   "devDependencies": {
-    "@types/history": "^4.7.3",
+    "@types/history": "^4.7.7",
     "@types/loadable__component": "^5.10.0",
     "@types/node": "^12.12.22",
     "@types/react-dom": "^16.8.4",
